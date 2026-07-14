@@ -1,0 +1,14 @@
+{
+  "dataset_root": "Z:\\File\\Zorther Model\\dataset",
+  "packing_length": 512,
+  "min_character_length": 10,
+  "deduplication_threshold": 0.85,
+  "sampling_ratios": {
+    "language": 1.0     
+  },
+  "shuffle_buffer_size": 1000,
+  "num_workers": 8,
+  "seed": 42,
+  "streaming": true,
+  "quality_filter_enabled": false
+}

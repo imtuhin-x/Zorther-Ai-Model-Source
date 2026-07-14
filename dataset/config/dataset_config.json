@@ -1,0 +1,15 @@
+{
+    "version": "1.0",
+    "format": "jsonl",
+    "encoding": "utf-8",
+    "datasets": {
+        "books": true,
+        "wikipedia": true,
+        "knowledge": true,
+        "reasoning": true,
+        "mathematics": true,
+        "coding": true,
+        "conversation": true,
+        "language": true
+    }
+}

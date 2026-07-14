@@ -1,0 +1,23 @@
+{
+  "epochs": 4,
+  "batch_size": 2,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.1,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.95,
+  "adam_epsilon": 1e-08,
+  "warmup_steps": 500,
+  "total_steps": 7500,
+  "lr_scheduler_type": "cosine",
+  "gradient_accumulation_steps": 4,
+  "max_grad_norm": 1.0,
+  "mixed_precision": "fp32",
+  "label_smoothing": 0.0,
+  "eval_interval": 250,
+  "save_interval": 250,
+  "checkpoint_dir": "./checkpoints",
+  "logging_dir": "./logs",
+  "use_tensorboard": false,
+  "use_csv": true,
+  "seed": 42
+}
